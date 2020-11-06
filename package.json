@@ -1,0 +1,21 @@
+{
+  "name": "dcbot",
+  "version": "1.0.0",
+  "description": "Discord Botu",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "keywords": [
+    "discord",
+    "bot"
+  ],
+  "author": "Fatih Özpolat",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^12.4.1",
+    "dotenv": "^8.2.0",
+    "got": "^11.8.0"
+  }
+}
